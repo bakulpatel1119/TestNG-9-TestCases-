@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="11" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="407993" started-at="2020-03-25T17:44:48 GMT" finished-at="2020-03-25T17:51:36 GMT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="407993" started-at="2020-03-25T17:44:48 GMT" finished-at="2020-03-25T17:51:36 GMT">
+      <class name="NopTestNG.BaseTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:NopTestNG.BaseTest@64bfbc86]" name="setUp" is-config="true" duration-ms="7175" started-at="2020-03-25T17:44:48 GMT" finished-at="2020-03-25T17:44:55 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:NopTestNG.BaseTest@64bfbc86]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-25T17:51:36 GMT" finished-at="2020-03-25T17:51:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- NopTestNG.BaseTest -->
+      <class name="NopTestNG.TestSuit">
+        <test-method status="PASS" signature="guestUserShouldBeAbleToAddCommentsSuccessfully()[pri:0, instance:NopTestNG.TestSuit@64bf3bbf]" name="guestUserShouldBeAbleToAddCommentsSuccessfully" duration-ms="26531" started-at="2020-03-25T17:44:56 GMT" finished-at="2020-03-25T17:45:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestUserShouldBeAbleToAddCommentsSuccessfully -->
+        <test-method status="PASS" signature="guestUserShouldBeAbleToCheckOutSuccessfully()[pri:0, instance:NopTestNG.TestSuit@64bf3bbf]" name="guestUserShouldBeAbleToCheckOutSuccessfully" duration-ms="138340" started-at="2020-03-25T17:45:22 GMT" finished-at="2020-03-25T17:47:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestUserShouldBeAbleToCheckOutSuccessfully -->
+        <test-method status="PASS" signature="nonRegisteredUserShouldNotBeAbleToReferProductToAFriend()[pri:0, instance:NopTestNG.TestSuit@64bf3bbf]" name="nonRegisteredUserShouldNotBeAbleToReferProductToAFriend" duration-ms="47437" started-at="2020-03-25T17:47:40 GMT" finished-at="2020-03-25T17:48:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonRegisteredUserShouldNotBeAbleToReferProductToAFriend -->
+        <test-method status="PASS" signature="registeredUserShouldBeAbleToReferProductToAFriend()[pri:0, instance:NopTestNG.TestSuit@64bf3bbf]" name="registeredUserShouldBeAbleToReferProductToAFriend" duration-ms="73921" started-at="2020-03-25T17:48:28 GMT" finished-at="2020-03-25T17:49:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeredUserShouldBeAbleToReferProductToAFriend -->
+        <test-method status="PASS" signature="userShouldAbletoRegisterSuccessfully()[pri:0, instance:NopTestNG.TestSuit@64bf3bbf]" name="userShouldAbletoRegisterSuccessfully" duration-ms="44182" started-at="2020-03-25T17:49:42 GMT" finished-at="2020-03-25T17:50:26 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldAbletoRegisterSuccessfully -->
+        <test-method status="PASS" signature="userShouldBeAbleToChangeCurrencySuccessfully()[pri:0, instance:NopTestNG.TestSuit@64bf3bbf]" name="userShouldBeAbleToChangeCurrencySuccessfully" duration-ms="12700" started-at="2020-03-25T17:50:26 GMT" finished-at="2020-03-25T17:50:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToChangeCurrencySuccessfully -->
+        <test-method status="PASS" signature="userShouldBeAbleToCompareTwoProductSuccessfully()[pri:0, instance:NopTestNG.TestSuit@64bf3bbf]" name="userShouldBeAbleToCompareTwoProductSuccessfully" duration-ms="30464" started-at="2020-03-25T17:50:39 GMT" finished-at="2020-03-25T17:51:09 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToCompareTwoProductSuccessfully -->
+        <test-method status="PASS" signature="userShouldBeAbleToSortPriceHighToLow()[pri:0, instance:NopTestNG.TestSuit@64bf3bbf]" name="userShouldBeAbleToSortPriceHighToLow" duration-ms="13595" started-at="2020-03-25T17:51:09 GMT" finished-at="2020-03-25T17:51:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToSortPriceHighToLow -->
+        <test-method status="PASS" signature="userShouldBeAbleToVerifyAddToCartButtonIsPresentSuccessfully()[pri:0, instance:NopTestNG.TestSuit@64bf3bbf]" name="userShouldBeAbleToVerifyAddToCartButtonIsPresentSuccessfully" duration-ms="13601" started-at="2020-03-25T17:51:23 GMT" finished-at="2020-03-25T17:51:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToVerifyAddToCartButtonIsPresentSuccessfully -->
+      </class> <!-- NopTestNG.TestSuit -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
